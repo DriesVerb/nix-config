@@ -1,5 +1,5 @@
 {
   home.shellAliases = {
-    bb = "mkdir bb";
+    cc = "mkdir bb";
   };
 }
