@@ -1,6 +1,10 @@
 {
   home.shellAliases = {
 
+    imdone = "sudo apt-get update && sudo apt-get upgrade && sudo shutdown -P now";
+    justdone = "sudo shutdown - P now";
+    goagain = "sudo reboot";
+
     # TODO: integrate nixvim
     vix = "~/.config/nixvim/result/bin/nvim";
 
