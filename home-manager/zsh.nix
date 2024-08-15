@@ -26,8 +26,12 @@
       echo_format "git branch $1 + git checkout $1"
       };f'
 
+    '';
+
+    initExtraBeforeCompInit = ''
       eval "$(direnv hook zsh)"
     '';
+
 
     shellAliases = {
 
