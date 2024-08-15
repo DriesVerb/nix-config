@@ -6,7 +6,8 @@
 
     # shortcut for 
     evix = "cd ~/.config/nixvim && vix";
-    ehome = "cd ~/&& vix";
+    goHome = "cd ~/nix-config/";
+    geHome = "gohome && vix";
 
     #nix
     nru = "echo_format 'nix run ' &&  nix run";
@@ -35,7 +36,6 @@
 
     # nuxt tutorial
     NuxtTest = "cd ~/projects/nuxt/test-1";
-    gosNuxtTest = "NuxtTest && npm start";
+    gsNuxtTest = "NuxtTest && npm run dev";
   };
-
 }
