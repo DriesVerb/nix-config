@@ -1,5 +1,5 @@
 {
   home.shellAliases = {
-    cc = "mkdir bb";
+    hmr = "home-manager switch --flake .#eta@popos";
   };
 }
