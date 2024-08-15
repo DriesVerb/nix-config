@@ -50,6 +50,8 @@
   # programs.neovim.enable = true;
   # home.packages = with pkgs; [ steam ];
 
+  users.defaultUserShell = pkgs.zsh;
+
   # Enable home-manager and git
   programs.home-manager.enable = true;
   programs.git.enable = true;
