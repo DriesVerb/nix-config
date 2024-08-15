@@ -58,7 +58,7 @@
       gcd = "echo_format 'git checkout development ' && git checkout development";
 
       # home-manager
-      hmr = "home-manager switch --flake .#eta@pop-os";
+      hmr = "home-manager switch --flake .#eta@popos";
     };
 
     oh-my-zsh = {

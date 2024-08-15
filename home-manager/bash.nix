@@ -1,7 +1,6 @@
 {
   programs.bash = {
-    enable = false;
-
+    enable = true;
     initExtra = ''
       exec zsh
     '';
