@@ -7,7 +7,7 @@
     # shortcut for 
     evix = "cd ~/.config/nixvim && vix";
     goHome = "cd ~/nix-config/";
-    geHome = "gohome && vix";
+    geHome = "goHome && vix";
 
     #nix
     nru = "echo_format 'nix run ' &&  nix run";
