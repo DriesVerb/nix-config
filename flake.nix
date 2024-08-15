@@ -24,9 +24,9 @@
       # Available through 'nixos-rebuild --flake .#your-hostname'
       nixosConfigurations = {
         # FIXME replace with your hostname
-        users.defaultUserShell = nixpkgs.zsh;
         popos = nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs outputs; };
+          users.defaultUserShell = nixpkgs.zsh;
           # > Our main nixos configuration file <
           modules = [ ./nixos/configuration.nix ];
         };
