@@ -25,8 +25,17 @@
     # home-manager
     hmr = "home-manager switch --flake .#eta@popos";
 
-    #shortcuts
-    goDevNuxt = "cd ~/nix-config/dev-shells/atofe-nuxt && nde";
+    dnuxt = "cd ~/nix-config/dev-shells/atofe-nuxt";
+
+    #shortcuts Nuxt devshell
+    gsdNuxt = "dnuxt && nde";
+    gedNuxt = "dnuxt && vix";
+
+    # projects
+
+    # nuxt tutorial
+    NuxtTest = "cd ~/projects/nuxt/test-1";
+    gosNuxtTest = "NuxtTest && npm start";
   };
 
 }
