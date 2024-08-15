@@ -2,6 +2,11 @@
   programs.bash = {
     enable = true;
 
+    shellAliases =
+      {
+        "~" = "cd ~";
+      };
+
     initExtra = ''
              _GREEN="\[$(tput setaf 046)\]"
              _BLUE="\[$(tput setaf 045)\]"
