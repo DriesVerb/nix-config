@@ -8,6 +8,7 @@
 }: {
   # You can import other home-manager modules here
   imports = [
+    ./bash.nix
     ./tmux.nix
     ./zsh.nix
     ./shell.nix
