@@ -29,23 +29,21 @@
                                }
 
                          export PS1="$_CYAN $_GREEN@$_BLUE \w$_PURPLE#$_ORANGE\$(parse_git_branch) $_RESET"
-
-            alias gcm='f() {
-            echo_format "git commit -m '$1'"
-            git commit -m "$1" &&
-            };f'
       
              alias gnb='f() {
              git branch "$1" &&
              git checkout "$1" &&
-
-            echo_format "git branch $1 + git checkout $1"
-             };f'
+             
+            alias gcm='f() {
+            echo_format "git commit -m '$1'"
+            git commit -m "$1" &&
+            };f'
 
       # Tmux shortcuts
       alias tmr='f() {
       tmux rename-window $1
       };f'
+
     '';
   };
 }
