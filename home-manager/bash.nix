@@ -33,11 +33,6 @@
              alias gnb='f() {
              git branch "$1" &&
              git checkout "$1" &&
-             
-            alias gcm='f() {
-            echo_format "git commit -m '$1'"
-            git commit -m "$1" &&
-            };f'
 
       # Tmux shortcuts
       alias tmr='f() {
